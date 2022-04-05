@@ -16,4 +16,10 @@
     color:  inherit;
     display: inline-block;
     background-color: black;
+    padding: 10px;
+    letter-spacing: 3px;
+    border-radius: 8px;
+}
+.navLink:hover{
+    background-color: rgb(107, 103, 103);
 }
