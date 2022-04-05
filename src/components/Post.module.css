@@ -1,0 +1,19 @@
+.text{
+    text-decoration: underline;
+}
+.btn{
+    border: none;
+    background-color: blue;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.title{
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.post{
+    padding: 10px 30px 20px;
+    box-shadow: 5px 5px 20px lightblue;
+}

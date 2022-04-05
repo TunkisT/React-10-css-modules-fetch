@@ -1,9 +1,9 @@
 import './card.css';
 
 const Card = () => {
-  const titleStyle = { textTransform: 'uppercase', 'font-size': '3rem' };
+  const titleStyle = { textTransform: 'uppercase', fontSize: '3rem' };
   return (
-    <div className='card'>
+    <div className='card border'>
       <h2 className='title' style={titleStyle}>
         Card title
       </h2>
