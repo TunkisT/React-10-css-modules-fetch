@@ -1,0 +1,19 @@
+.header{
+    background-color: #333;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+}
+
+.navLink{
+    text-decoration: none;
+    color:  inherit;
+    display: inline-block;
+    background-color: black;
+}
