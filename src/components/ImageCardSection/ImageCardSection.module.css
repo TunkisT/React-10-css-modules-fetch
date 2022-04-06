@@ -5,3 +5,9 @@
     margin-top: 0;
     padding-top: 10px;
 }
+.photoCardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+}
