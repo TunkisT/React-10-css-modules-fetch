@@ -1,6 +1,7 @@
 .section{
-    background-color: rgb(224, 211, 211);
+    background-color: rgb(226, 219, 219);
     padding: 7% 0;
+    text-align: center;
 }
 .title{
     text-align: center;
@@ -9,6 +10,7 @@
 .para{
     font-weight: light;
     text-align: center;
+    letter-spacing: 2px;
 }
 .btn{
     background-color: blueviolet;
@@ -17,4 +19,5 @@
     padding: 20px 40px;
     color: whitesmoke;
     font-weight: 900;
+    margin: auto;
 }
