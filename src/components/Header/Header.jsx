@@ -1,12 +1,20 @@
-import css from './Header.module.css'
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import css from './Header.module.css';
 
 const Header = () => {
   return (
     <header className={css.header}>
       <nav className={css.nav}>
-        <a className={css.navLink} href='#home'>Home</a>
-        <a className={css.navLink} href='#about'>About</a>
-        <a className={css.navLink} href='#contact'>Contact</a>
+        <Link className={css.navLink} to='/'>
+          Home
+        </Link>
+        <a className={css.navLink} href='#imageSection'>
+          Image Section
+        </a>
+        <Link className={css.navLink} to='/image-page'>
+          Image page
+        </Link>
       </nav>
     </header>
   );

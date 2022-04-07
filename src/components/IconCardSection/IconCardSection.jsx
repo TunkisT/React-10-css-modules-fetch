@@ -1,7 +1,9 @@
 import IconCard from '../IconCard/IconCard';
 import Btn from '../UI/Btn';
+import Container from '../UI/Container';
 import SectionHeading from '../UI/SectionHeading';
 import css from './IconCardSection.module.css';
+import styled from 'styled-components';
 
 const cardData = [
   {
@@ -24,10 +26,20 @@ const cardData = [
   },
 ];
 
+const Section = styled.section`
+  background-color: rgb(226, 219, 219);
+  padding: 7% 0;
+  text-align: center;
+`;
+
+const Para = styled.p`
+  text-align: center;
+`;
+
 const IconCardSection = () => {
   return (
-    <section className={css.section}>
-      <div className='container'>
+    <Section>
+      <Container>
         <SectionHeading
           title='Lorem parem mei'
           text='Lorem ipsum dolor sit sapien vestibulum ipsum primis'
@@ -37,12 +49,10 @@ const IconCardSection = () => {
             <IconCard key={obj.id} {...obj} />
           ))}
         </div>
-        <p className={css.para}>
-          Lorem ipsum dolor sit sapien vestibulum ipsum primis?
-        </p>
+        <Para>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</Para>
         <Btn>See some of my art</Btn>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 };
 export default IconCardSection;
